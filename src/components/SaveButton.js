@@ -9,7 +9,7 @@ export const SaveButtton = ({ onPress, title, style }) => {
     <View style={{ flexGrow: 1, flexDirection: "column", justifyContent: 'flex-end', marginBottom: wp('5%') }}>
       <View style={{ justifyContent: 'center', alignItems: 'center', }}>
         <TouchableOpacity onPress={() => { onPress() }} style={{ width: wp('70%'), backgroundColor: Colors.CC, padding: wp('4%'), borderRadius: wp('20%') }}>
-          <Text style={{ textAlign: 'center', color: Colors.TC }}>Save</Text>
+          <Text style={{ fontSize: wp('4%'), textAlign: 'center', color: Colors.TC }}>Save</Text>
         </TouchableOpacity>
       </View>
     </View >

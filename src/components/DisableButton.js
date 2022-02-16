@@ -10,7 +10,7 @@ export const DisableButton = ({ ...props }) => {
         <View style={{ flexGrow: 1, flexDirection: "column", justifyContent: 'flex-end', marginBottom: wp('5%') }}>
             <View style={{ justifyContent: 'center', alignItems: 'center', bgackgroundColor: "red", }}>
                 <View style={{ width: wp('70%'), backgroundColor: Colors.DB, padding: wp('4%'), borderRadius: wp('20%') }}>
-                    <Text style={{ textAlign: 'center', color: Colors.TC }}>Save</Text>
+                    <Text style={{ fontSize: wp('4%'), textAlign: 'center', color: Colors.TC }}>Save</Text>
                 </View>
             </View>
         </View>
